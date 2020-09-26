@@ -5,14 +5,19 @@
 // ref.textContent = verse;  ----це просто складніший варіант але не на консоль а просто на сайт зразy
 
 
-let name = (" Генератор захисного поля" );
-var price =  ' 1000' ;
+// let name = (" Генератор захисного поля" );
+// var price =  ' 1000' ;
 
-let text = (" Обрано")  ;
+// let text = (" Обрано")  ;
 
-let mw=(" ціна  за  штуку") ; 
-let r = (" кредитів");
-var price =  ' 2000' ;
-console.log( text + name +  mw + price +  r )
+// let mw=(" ціна  за  штуку") ; 
+// let r = (" кредитів");
+// var price =  ' 2000' ;
+// console.log( text + name +  mw + price +  r )
+const  name =  "Генераор захисного поля";
+let price = 1000;
+console.log(`Обрано ${name} ціна за штуку ${price} кредитів`);
+price = 2000;
+console.log(`Обрано ${name} ціна за штуку ${price} кредитів`);
  
  
